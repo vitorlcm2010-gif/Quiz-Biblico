@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Bíblico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>QUIZ BÍBLICO</h1>
+        <p>Teste seus conhecimentos sobre a Bíblia</p>
+    </header>
+
+    <main class="container">
+
+        <section id="quiz">
+            <div class="informacoes">
+                <span id="numeroPergunta">Pergunta 1 de 10</span>
+                <span id="pontuacao">Pontos: 0</span>
+            </div>
+
+            <div class="progresso">
+                <div id="barraProgresso"></div>
+            </div>
+
+            <h2 id="pergunta">Carregando pergunta...</h2>
+
+            <div id="alternativas" class="alternativas"></div>
+
+            <p id="feedback"></p>
+
+            <button id="btnResponder" disabled>Responder</button>
+
+            <button id="btnProxima" hidden>Próxima pergunta</button>
+        </section>
+
+        <section id="resultado" hidden>
+            <h2>Quiz finalizado!</h2>
+            <p id="pontuacaoFinal"></p>
+            <button id="btnReiniciar">Jogar novamente</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Quiz Bíblico - Projeto Escolar</p>
+    </footer>
+
+</body>
+</html>
